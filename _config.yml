@@ -1,5 +1,5 @@
 title:Pratibha
-show_downloads:True
-remote_theme:pages-themes/minimal@v0.2.0
+show_downloads: True
+remote_theme: pages-themes/minimal@v0.2.0
 plugins:
   - jeky11-remote-theme
