@@ -1,6 +1,5 @@
-# pratibhabhattarai.github.io
+# Data Portfolio : Excel to Power BI
 
-Top USA TikTok Influencers 2024
+# TOP USA TikTok Influencers 2024 Dashboard
 
 
-This is my portfolio website
