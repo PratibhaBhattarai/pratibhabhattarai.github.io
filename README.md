@@ -34,7 +34,7 @@ The data is sourced from Kaggle.[Click here to find it.(https://www.kaggle.com/d
 
 # Tools
 
-|Tool	     |   Purpose                                   |
+| Tool	     |  Purpose                                   |
 |---------   |---------------------------------------------|
 | Excel      |  Exploring the data                         |
 | SQL	     |  Cleaning, testing, and analyzing the data  |
