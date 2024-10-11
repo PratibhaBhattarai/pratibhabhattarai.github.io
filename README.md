@@ -128,9 +128,9 @@ WHERE Engagement_Ratio ISNULL;
 
 ### Column count check
 
-## SQL Query with Output
+### SQL Query with Output
 
-![Column-count](assets/image/Columncount.png.png)
+![Column-count](assets/image/columncount.png.png)
 
 ### Data Type Check
 
@@ -185,7 +185,7 @@ I have identified three groups of TikTok Influencers with distinct advantages:
    contenders for campaigns that prioritize maximum visibility and extensive audience exposure. With the large number of followers, they have the capability of generating significant awareness across a broad 
    audience.
 
-2. Zach King, Kylie Jenner, and Olivia Rodrigo show high engagement impact. This makes them strong candidates for campaigns that seek to drive active interactions, as they are likely to encourage more interaction.
+2. Zach King, Kylie Jenner, and Olivia Rodrigo show high engagement impact. This makes them strong candidates for campaigns that seek to drive active interactions.
 
 3. Samuel Grubbs, Mariah Carey and Olivia Rodrigo are positioned high on engagement ratio but have lower follower counts compared to the top influencers by followers. This suggests that while their reach is limited, they have highly engaged followers. They could be effective for niche marketing campaigns targeting a more engaged and loyal audience rather than a large one.
 
