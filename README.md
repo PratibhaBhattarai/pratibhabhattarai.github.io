@@ -2,7 +2,7 @@
 
 # TOP USA TikTok Influencers 2024 Dashboard
 
-##Table of Contents
+## Table of Contents
 
 - [Objective].(#objective).
 - [Data Source].(#Data Source).
@@ -16,42 +16,42 @@
 - [Findings].(#Findings).
 - [Conclusion].(#Conclusion).
  
- #Objective 
+ # Objective 
  
  The Head of Marketing seeks to identify the leading TikTok Influencers in 2024 to determine which influencers would be the most effective partners for marketing campaigns for the remainder of the year.
  The goal is to pinpoint influencers with the highest potential to drive engagement and reach.
 
- #Solution
+ # Solution
  
  To develop a dashboard that provides insights into the leading USA TikTok Influencers in 2024 that includes:
-      •	Followers Count
-      •	Potential Reach 
-      •	Engagement Impact
+     # • Followers Count
+     # • Potential Reach 
+     # • Engagement Impact
 
-#Data Source
+# Data Source
 
 The data is sourced from Kaggle.[Click here to find it.(https://www.kaggle.com/datasets/bhavyadhingra00020/top-100-social-media-influencers-2024-countrywise?resource=download])
 
-#Tools
+# Tools
 
 |Tool	     |   Purpose                                   |
-|--------- |---------------------------------------------|
-| Excel    |  Exploring the data                         |
+|---------   |---------------------------------------------|
+| Excel      |  Exploring the data                         |
 | SQL	     |  Cleaning, testing, and analyzing the data  |
-| Power BI |  Visualizing the data                       |
-| GitHub	 |  Hosting the Project documentation          |
+| Power BI   |  Visualizing the data                       |
+| GitHub     |  Hosting the Project documentation          |
 
 
-#Steps
-    1.	Get the dataset
-    2.	Data Exploration in Excel
-    3.	Import the data into SQL Server
-    4.	Clean data in SQL
-    5.	Validate the data integrity with SQL
-    6.	Create visualizations in Power BI
-    7.	Analyze and Interpret findings based on the insights
-    8.	Documentation 
-    9.	Publish the project on GitHub Pages
+# Steps
+  # 1. Get the dataset
+  # 2. Data Exploration in Excel
+  # 3. Import the data into SQL Server
+  # 4. Clean data in SQL
+  # 5. Validate the data integrity with SQL
+  # 6. Create visualizations in Power BI
+  # 7. Analyze and Interpret findings based on the insights
+  # 8. Documentation 
+  # 9. Publish the project on GitHub Pages
 
 #Data Exploration 
 
