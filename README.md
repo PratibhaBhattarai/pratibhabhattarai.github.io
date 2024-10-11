@@ -15,11 +15,13 @@
  -  [Visualizations](#Visualizations).
 - [Findings](#Findings).
 - [Conclusion](#Conclusion).
+  
  
  # Objective 
  
  The Head of Marketing seeks to identify the leading TikTok Influencers in 2024 to determine which influencers would be the most effective partners for marketing campaigns for the remainder of the year.
  The goal is to pinpoint influencers with the highest potential to drive engagement and reach.
+ 
 
  # Solution
  
@@ -72,7 +74,7 @@ The aim is to transform our dataset and make it ready for analysis by implementi
 4. Handle any missing or inconsistent data (blank engagement rate).
 5. Check for duplicates 
 
-# Transform the data: 
+# Data Transformation 
 
 Categorized TikTok influencers into Low, Mid, and High based on their followers count to address missing Engagement Ratio values by imputing them with the average Engagement_ratio for each category.
 By grouping influencers into these categories, I calculated the mean Engagement_ratio for each group and used these values to fill in missing data. This approach ensures that influencers with missing ER values are assigned representative rates according to their follower size, thereby preserving the integrity of the data and providing a more accurate basis for analysis. 
@@ -118,8 +120,24 @@ WHERE Engagement_Ratio ISNULL;
 
 '''
 # Testing
-##Row Count Check
-##SQL Query with Output
+
+## Row Count Check
+
+## SQL Query with Output
+
+![Row-count](assets/image/Rowcount.png)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
