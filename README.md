@@ -8,10 +8,10 @@
 - [Tools](#Tools)
 - [Steps](#Steps)
 	- [Data Exploration](#Data-Exploration)
- 	- [Data Cleaning](#Data-Cleaning)
- 	- [Data Transformation](#Data-Transformation)
- 	- [Testing](#Testing)
- 	- [Visualizations](#Visualizations)
+	- [Data Cleaning](#Data-Cleaning)
+	- [Data Transformation](#Data-Transformation)
+- [Testing](#Testing)
+- [Visualizations](#Visualizations)
 - [Findings](#Findings)
 - [Conclusion](#Conclusion)
   
@@ -22,7 +22,7 @@
  The goal is to pinpoint influencers with the highest potential to drive engagement and reach.
  
 
- # Solution
+# Solution
  
  To develop a dashboard that provides insights into the leading USA TikTok Influencers in 2024 that includes:
  - Followers Count
@@ -31,7 +31,7 @@
 
 # Data Source
 
-The data is sourced from Kaggle.[Click here to find it.(https://www.kaggle.com/datasets/bhavyadhingra00020/top-100-social-media-influencers-2024-countrywise?resource=download])
+The data is sourced from Kaggle,[Click here to find it.](https://www.kaggle.com/datasets/bhavyadhingra00020/top-100-social-media-influencers-2024-countrywise?resource=download)
 
 # Tools
 
@@ -61,7 +61,7 @@ The data is sourced from Kaggle.[Click here to find it.(https://www.kaggle.com/d
 
 - There are 4 columns that provide the necessary data we need.
 - The first column has the influencers name and channel name separated by @ symbol. We need to extract the influencers channel name.
-- The ER column has missing data. We will be using mean imputation to fill in the missing data values.
+- The ER column contains null values. We will be using group mean imputation to fill in the missing data.
 - The dataset contains additional columns beyond what we need, so certain columns should be removed.
 
 # Data Cleaning
@@ -102,7 +102,7 @@ FROM tiktok_usa;
 
 ## Handling missing data for Engagement_ratio column
 
-## SQL Query
+### SQL Query
 ```sql
 /*
 Imputing missing values: using the group specific mean to replace missing engagement ratios.
@@ -120,33 +120,33 @@ WHERE Engagement_Ratio ISNULL;
 
 # Testing
 
-## Row Count Check
+### Row Count Check
 
-## SQL Query with Output
+### SQL Query with Output
 
 ![Row-count](assets/image/Rowcount.png.png)
 
-## Column count check
+### Column count check
 
 ## SQL Query with Output
 
 ![Column-count](assets/image/Columncount.png.png)
 
-## Data Type Check
+### Data Type Check
 
-## SQL Query with Output
+### SQL Query with Output
 
 ![Data-type-check](assets/image/datatypecheck.png.png)
 
-## Duplicate Count check
+### Duplicate Count check
 
-## SQL Query with Output
+### SQL Query with Output
 
 ![duplicate-count](assets/image/duplicate.png.png)
 
-## Null Value check
+### Null Value check
 
-## Query with Output
+### Query with Output
 
 ![missing-count](assets/image/missingdatacheck.png.png)
 
@@ -160,20 +160,20 @@ WHERE Engagement_Ratio ISNULL;
 
 # DAX Measures used
 
-## Total Followers
+### Total Followers
 
 ![total-followers](assets/image/totalfollowers.png.png)
 
 
-## Total Reach
+### Total Reach
 
 ![total-Reach](assets/image/potentialreach.png.png)
 
-## Engagement ratio
+### Engagement ratio
 
 ![Engagement-ratio](assets/image/engagementratio.png.png)
 
-## Engagement Impact
+### Engagement Impact
 
 ![Engagement-impact](assets/image/engagementimpact.png.png)
 
