@@ -1,23 +1,22 @@
 # Data Portfolio : Excel to Power BI
 
-# TOP USA TikTok Influencers 2024 Dashboard
 
-## Table of Contents
+# Table of Contents
 
-- [Objective](#objective).
+- [Objective](#objective)
 - [Data Source](Data-source)
-- [Tools](#Tools).
-- [Steps](#Steps).
- -  [Data Exploration](#Data-Exploration).
- -  [Data Cleaning](#Data-Cleaning).
- -  [Data Transformation](#Data-Transformation).
- -  [Testing](#Testing).
- -  [Visualizations](#Visualizations).
-- [Findings](#Findings).
-- [Conclusion](#Conclusion).
+- [Tools](#Tools)
+- [Steps](#Steps)
+	- [Data Exploration](#Data-Exploration)
+ 	- [Data Cleaning](#Data-Cleaning)
+ 	- [Data Transformation](#Data-Transformation)
+ 	- [Testing](#Testing)
+ 	- [Visualizations](#Visualizations)
+- [Findings](#Findings)
+- [Conclusion](#Conclusion)
   
  
- # Objective 
+# Objective 
  
  The Head of Marketing seeks to identify the leading TikTok Influencers in 2024 to determine which influencers would be the most effective partners for marketing campaigns for the remainder of the year.
  The goal is to pinpoint influencers with the highest potential to drive engagement and reach.
