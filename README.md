@@ -125,7 +125,7 @@ WHERE Engagement_Ratio ISNULL;
 
 ## SQL Query with Output
 
-![Row-count](assets/image/Rowcount.png)
+![Row-count](assets/image/Rowcount.png.png)
 
 
 
