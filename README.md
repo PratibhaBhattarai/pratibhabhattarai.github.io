@@ -1,4 +1,4 @@
-# Data Portfolio : Excel to Power BI
+# Data Portfolio : Excel to SQL to Power BI
 
 
 # Table of Contents
