@@ -4,16 +4,16 @@
 # Table of Contents
 
 - [Objective](#objective)
-- [Data Source](Data-source)
+- [Data Source](#data-source)
 - [Tools](#Tools)
 - [Steps](#Steps)
-	- [Data Exploration](#Data-Exploration)
-	- [Data Cleaning](#Data-Cleaning)
-	- [Data Transformation](#Data-Transformation)
-- [Testing](#Testing)
-- [Visualizations](#Visualizations)
-- [Findings](#Findings)
-- [Conclusion](#Conclusion)
+	- [Data Exploration](#data-exploration)
+	- [Data Cleaning](#data-cleaning)
+	- [Data Transformation](#data-transformation)
+- [Testing](#testing)
+- [Visualizations](#visualizations)
+- [Findings](#findings)
+- [Conclusion](#conclusion)
   
  
 # Objective 
